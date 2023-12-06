@@ -7,12 +7,24 @@
 }
 
 body {
-    background: rgb(30, 30, 30);
-    color: white;
+    background: white;
+    color: black;
     overflow: hidden;
     overflow-y: scroll;
 }
 
 h1 {
     color: red;
+}
+
+.App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    flex-grow: 1;
 }

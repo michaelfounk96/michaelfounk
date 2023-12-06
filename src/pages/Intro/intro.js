@@ -1,6 +1,6 @@
 import React from 'react'
 import './intro.css'
-import profile from '../../assets/logo-white.png'
+import profile from '../../assets/logo-no-background.png'
 import { Link } from 'react-scroll'
 
 const Intro = () => {
@@ -10,12 +10,12 @@ const Intro = () => {
             <span className='hello'>Hello,</span>
             <span className='introText'>I'm Michael Founk</span>
             <p className='introPara'>Some info about me</p>
-            <Link>
+            {/* <Link>
                 <button className='btn'>
-                    {/* <img src='' alt='Hire Me'/> */}
+                    <img src='' alt='Hire Me'/>
                     Hire Me
                 </button>
-            </Link>
+            </Link> */}
         </div>
         <img src={profile} alt='Profile' className='bg'/>
 

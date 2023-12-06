@@ -1,4 +1,5 @@
 .navbar {
+    background: white;
     height: 5rem;
     width: 100vw;
     max-width: 75rem;
@@ -7,7 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: sticky;
+    /* position: sticky; */
     top: 0;
     z-index: 3;
 }
@@ -17,30 +18,17 @@
     width: 5rem;
 }
 
-.desktopMenuListItem {
-    margin: 1rem;
-    cursor: pointer;
+.navMenu {
+    background: white;
 }
 
-.desktopMenuListItem:hover {
+.navItem {
+    margin: 1rem;
+    color: black;
+}
+
+.navItem:hover {
     color: #E1410D;
     padding-bottom: 0.5rem;
     border-bottom: 3px solid #E1410D ;
-}
-
-.desktopMenuBtn {
-    background: white;
-    color: black;
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem 2rem;
-    border-radius: 2rem;
-}
-
-.desktopMenuImg {
-    object-fit: cover;
-    height: 1rem;
-    width: 1rem;
 }

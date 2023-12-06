@@ -1,7 +1,12 @@
-.contactDesc {
-    padding: 1rem;
-    font-size: medium;
-    font-weight: 300;
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactTitle {
+    font-size: 3rem;
 }
 
 .contactForm {
@@ -10,8 +15,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 90vw;
-    max-width: 60rem;
+    width: 50vw;
+    max-width: 40rem;
 }
 
 .contactForm *{
